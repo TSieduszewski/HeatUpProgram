@@ -5,6 +5,7 @@ public class Triangle extends Shape {
     public Triangle(double a, double b, double h, double c) {
         super(a, b, h);
         this.c=c;
+        test = () -> a + b > c && b + c > a && c + a > b;
     }
 
     @Override
@@ -54,5 +55,8 @@ public class Triangle extends Shape {
     public double calculateCircuit() {
         return a+b+c;
     }
+public TriangleTest triangleTest(){
+        return test;
+}
 
 }

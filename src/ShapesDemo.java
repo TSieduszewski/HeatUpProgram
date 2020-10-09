@@ -34,7 +34,7 @@ public class ShapesDemo {
 
                     System.out.println("Pole wynosi: " + shape.calculateArea());
                     System.out.println("Obwód wynosi: " + shape.calculateCircuit());
-                    if(!(a + b > c && b + c > a && c + a > b))
+                    if(!shape.test.triangleTest())
                         System.out.println("Ale to nie jest trójkąt");
                     choose = false;
                     break;

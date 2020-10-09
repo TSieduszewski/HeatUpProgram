@@ -3,6 +3,7 @@ public abstract class Shape implements Area, Circuit {
     double a;
     double b;
     double h;
+    TriangleTest test;
 
     public Shape(double a, double b, double h) {
         this.a = a;
