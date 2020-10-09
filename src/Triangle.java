@@ -55,8 +55,6 @@ public class Triangle extends Shape {
     public double calculateCircuit() {
         return a+b+c;
     }
-public TriangleTest triangleTest(){
-        return test;
-}
+
 
 }
